@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+body {
+  padding: 0 20%;
 }
 
 .App-logo {
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
